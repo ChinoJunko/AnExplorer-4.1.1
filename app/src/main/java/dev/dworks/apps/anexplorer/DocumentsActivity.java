@@ -938,12 +938,12 @@ public class DocumentsActivity extends BaseActivity implements MenuItem.OnMenuIt
             openPurchaseActivity(this);
             AnalyticsManager.logEvent("support_open");
             return true;
-        }   /*else if (id == R.id.menu_link)  {
+        }   else if (id == R.id.menu_link)  {
             startActivity(new Intent(this, LinkActivity.class));
             AnalyticsManager.logEvent("link_open");
             return true;
         }
-        */
+
         return false;
     }
 
